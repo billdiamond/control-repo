@@ -5,7 +5,8 @@ forge 'https://forge.puppet.com'
 #mod 'puppetlabs/inifile',     '2.2.1'
 #mod 'puppetlabs/stdlib',      '4.25.1'
 #mod 'puppetlabs/concat',      '4.2.1'
-mod 'puppetlabs-cisco_ios',   '0.3.0'
+mod 'puppetlabs-resource_api',  '0.3.0'
+mod 'puppetlabs-cisco_ios',     '0.3.0'
 
 
 # Modules from Git
