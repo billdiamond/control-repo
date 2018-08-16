@@ -9,6 +9,7 @@ mod 'puppetlabs-puppetserver_gem', '1.0.0'
 mod 'puppetlabs-netdev_stdlib',  '0.15.0'
 mod 'puppetlabs-resource_api',  '0.3.0'
 mod 'puppetlabs-cisco_ios',     '0.3.0'
+mod 'puppetlabs-device_manager', '2.6.0'
 
 
 # Modules from Git
