@@ -11,6 +11,7 @@ mod 'puppetlabs-resource_api',  '0.3.0'
 mod 'puppetlabs-cisco_ios',     '0.3.0'
 mod 'puppetlabs-device_manager', '2.6.0'
 mod 'puppetlabs-hocon', '1.0.1'
+mod 'puppetlabs-ciscopuppet', '1.9.0'
 
 
 # Modules from Git
