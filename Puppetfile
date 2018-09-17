@@ -41,7 +41,7 @@ mod 'puppetlabs-transition', '0.1.1'
 mod 'puppetlabs-gcc', '0.3.0'
 mod 'puppetlabs-distelli_agent', '0.1.0'
 mod 'maestrodev-wget', '1.7.3'
-mod 'puppetlabs-ciscopuppet', '1.9.0'
+
 
 # Forge Community Modules
 mod 'jfryman-selinux', '0.4.0'
