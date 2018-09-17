@@ -15,9 +15,9 @@ class profile::infrastructure::network::ios (
   # Manage DNS
   network_dns { 'default':
     ensure  => 'present',
-    servers => ['1.1.1.1', '1.1.1.3'],
-    domain  => 'poc.com',
-    search  => ['jim.com'],
+    servers => ['192.168.1.1', '8.8.8.8'],
+    domain  => 'billdiamond.com',
+    search  => ['billdiamond.com'],
   }
 
   # Syslog server default configuration
@@ -29,7 +29,7 @@ class profile::infrastructure::network::ios (
   }
 
   # Syslog servers
-  syslog_server { ['192.188.11.1','192.188.11.2']:
+  syslog_server { ['192.188.1.1','192.188.1.2']:
     ensure => present,
   }
 
