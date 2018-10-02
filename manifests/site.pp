@@ -14,12 +14,6 @@ node default {
     $role = $trusted['extensions']['pp_role']
     include "role::${trusted['extensions']['pp_role']}"
   }
-#}
-
-node 'icinga2.billdiamond.com'{
-  class { ‘mysql::client’:}
-  class { '::mysql::server':
-  root_password    => 'icinga2',
-  override_options => { 'mysqld' => { 'max_connections' => '1024' } 
-  }  
 }
+
+
