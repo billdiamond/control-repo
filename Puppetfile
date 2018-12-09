@@ -43,6 +43,7 @@ mod 'puppetlabs-distelli_agent', '0.1.0'
 mod 'maestrodev-wget', '1.7.3'
 mod 'icinga-icinga2', '1.3.6'
 mod 'icinga-icingaweb2', '2.2.0'
+mod 'puppetlabs-vsphere', '1.3.0'
 
 # Forge Community Modules
 mod 'jfryman-selinux', '0.4.0'
