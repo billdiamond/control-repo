@@ -26,6 +26,8 @@ mod 'puppetlabs-motd', '1.4.0'
 mod 'puppetlabs-mount_iso', '1.0.0'
 mod 'puppetlabs/mysql', '3.11.0'
 mod 'puppetlabs-netdev_stdlib', '0.16.0'
+mod 'puppetlabs-vsphere', '1.3.0'
+mod 'puppetlabs-cd4pe', '1.0.3'
 mod 'puppetlabs-ntp', '6.2.0'
 mod 'puppetlabs-powershell', '2.1.0'
 mod 'puppetlabs/puppetserver_gem', '1.0.0'
@@ -43,7 +45,7 @@ mod 'puppetlabs-distelli_agent', '0.1.0'
 mod 'maestrodev-wget', '1.7.3'
 mod 'icinga-icinga2', '1.3.6'
 mod 'icinga-icingaweb2', '2.2.0'
-mod 'puppetlabs-vsphere', '1.3.0'
+
 
 # Forge Community Modules
 mod 'jfryman-selinux', '0.4.0'
