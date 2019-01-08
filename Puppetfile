@@ -97,6 +97,7 @@ mod 'herculesteam-augeasproviders_core', '2.1.4'
 mod 'herculesteam-augeasproviders_sysctl', '2.2.0'
 mod 'puppet-gitlab', '2.1.0'
 mod 'yguenane-mariadbrepo', '0.2.1'
+mod 'loomsen-rsnapshot', '1.2.4'
 
 mod 'tse-tse_facts',
   :git => 'https://github.com/puppetlabs/tse-module-tse_facts.git'
