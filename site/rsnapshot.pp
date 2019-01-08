@@ -1,7 +1,7 @@
 class { '::rsnapshot':
   hosts => {
     'localhost' => {},
-    'billdiamond.com'    => {
+    'razor.billdiamond.com'    => {
       backup_defaults => false,
       backup          => {
         '/var/'       => './'
