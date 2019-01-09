@@ -8,7 +8,7 @@ mod 'puppetlabs-resource', :latest
 mod 'puppetlabs-service', :latest
 mod 'puppetlabs/inifile', :latest
 mod "puppetlabs/stdlib", :latest
-mod 'puppetlabs/concat', :latest
+mod 'puppetlabs/concat', '3.0.0'
 mod 'puppetlabs-acl', :latest
 mod 'puppetlabs/apache', :latest
 mod 'puppetlabs/aws', :latest
@@ -29,14 +29,14 @@ mod 'puppetlabs-netdev_stdlib', :latest
 mod 'puppetlabs-vsphere', :latest
 mod 'puppetlabs-cd4pe', :latest
 mod 'puppetlabs-ntp', :latest
-mod 'puppetlabs-powershell', :latest
+mod 'puppetlabs-powershell', '2.0.0'
 mod 'puppetlabs/puppetserver_gem', :latest
 mod 'puppetlabs/reboot', :latest
 mod 'puppetlabs/registry', :latest
 mod 'puppetlabs/tomcat', :latest
 mod 'puppetlabs/vcsrepo', :latest
 mod 'puppetlabs/sqlserver', :latest
-mod 'puppetlabs-apt', :latest
+mod 'puppetlabs-apt', '3.0.0'
 mod 'puppetlabs-facter_task', :latest
 mod 'puppetlabs-docker', :latest
 mod 'puppetlabs-transition', :latest
@@ -52,7 +52,7 @@ mod 'loomsen-rsnapshot', '1.2.4'
 # Forge Community Modules
 mod 'jfryman-selinux', '0.4.0'
 mod 'ghoneycutt-ssh', '3.52.0'
-mod 'puppet-archive', :latest
+mod 'puppet-archive', '3.0.0'
 mod 'trlinkin/domain_membership', '1.1.2'
 mod 'ipcrm/echo', '0.1.3'
 mod 'aristanetworks-eos', '1.5.0'
