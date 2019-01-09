@@ -17,7 +17,7 @@ mod 'puppetlabs-chocolatey', :latest
 mod 'puppetlabs/dism', :latest
 mod 'puppetlabs/dsc', :latest
 mod 'puppetlabs/firewall', :latest
-mod 'puppetlabs/git', ':latest
+mod 'puppetlabs/git', :latest
 mod 'puppetlabs/haproxy', :latest
 mod 'puppetlabs-iis', :latest
 mod 'puppetlabs/java', :latest
