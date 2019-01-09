@@ -45,7 +45,7 @@ mod 'puppetlabs-distelli_agent', :latest
 mod 'maestrodev-wget', '1.7.3'
 mod 'icinga-icinga2', '1.3.6'
 mod 'icinga-icingaweb2', '2.2.0'
-mod 'puppet-archive', '3.0.0'
+
 
 mod 'stahnma-epel', '1.3.1'
 mod 'loomsen-rsnapshot', '1.2.4'
