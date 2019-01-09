@@ -29,16 +29,16 @@ mod 'puppetlabs-netdev_stdlib', '0.16.0'
 mod 'puppetlabs-vsphere', '1.3.0'
 mod 'puppetlabs-cd4pe', '1.0.3'
 mod 'puppetlabs-ntp', '6.2.0'
-mod 'puppetlabs-powershell', '2.1.0'
+# mod 'puppetlabs-powershell', '2.1.0'
 mod 'puppetlabs/puppetserver_gem', '1.0.0'
 mod 'puppetlabs/reboot', '1.2.1'
 mod 'puppetlabs/registry', '1.1.4'
 mod 'puppetlabs/tomcat', '1.7.0'
 mod 'puppetlabs/vcsrepo', '1.5.0'
 mod 'puppetlabs/sqlserver', '1.2.0'
-mod 'puppetlabs-apt', '4.1.0'
+# mod 'puppetlabs-apt', '4.1.0'
 mod 'puppetlabs-facter_task', '0.1.3'
-mod 'puppetlabs-docker', '1.0.1'
+# mod 'puppetlabs-docker', '1.0.1'
 mod 'puppetlabs-transition', '0.1.1'
 mod 'puppetlabs-gcc', '0.3.0'
 mod 'puppetlabs-distelli_agent', '0.1.0'
@@ -52,7 +52,7 @@ mod 'loomsen-rsnapshot', '1.2.4'
 # Forge Community Modules
 mod 'jfryman-selinux', '0.4.0'
 mod 'ghoneycutt-ssh', '3.52.0'
-mod 'puppet-archive', '3.0.0'
+# mod 'puppet-archive', '3.0.0'
 mod 'trlinkin/domain_membership', '1.1.2'
 mod 'ipcrm/echo', '0.1.3'
 mod 'stahnma/epel', '1.3.0'
@@ -65,7 +65,7 @@ mod 'WhatsARanjit/node_manager', '0.4.2'
 mod 'cyberious/pget', '1.1.0'
 mod 'lwf/remote_file', '1.1.3'
 mod 'ajjahn/samba', '0.5.0'
-mod 'puppet-staging', '3.2.0'
+# mod 'puppet-staging', '3.2.0'
 mod 'ayohrling-local_security_policy', '0.6.1'
 mod 'thias-sysctl', '1.0.6'
 mod 'reidmv/unzip', '0.1.2'
@@ -89,7 +89,7 @@ mod 'jonono-auditpol', '0.1.2'
 mod 'nexcess-auditd', '2.0.0'
 mod 'jdowning-rbenv', '2.2.0'
 mod 'puppet-windows_env', '2.3.0'
-mod 'camptocamp-systemd', '1.1.0'
+# mod 'camptocamp-systemd', '1.1.0'
 mod 'sensu-sensu', '2.52.0'
 mod 'puppet-rabbitmq', '8.2.2'
 mod 'arioch-redis', '3.1.0'
@@ -101,16 +101,6 @@ mod 'puppet-gitlab', '2.1.0'
 mod 'yguenane-mariadbrepo', '0.2.1'
 
 
-mod 'tse-tse_facts',
-  :git => 'https://github.com/puppetlabs/tse-module-tse_facts.git'
-
-mod 'demo_cis',
-  :git => 'https://github.com/ipcrm/ipcrm-demo_cis.git',
-  :ref => '4e6b63b577b9beae5a3cea88237faf11cb5990a0'
-
-mod 'rgbank',
-  :git => 'https://github.com/ipcrm/puppetlabs-rgbank.git',
-  :ref => 'master'
 
 
 mod 'jenkins',
