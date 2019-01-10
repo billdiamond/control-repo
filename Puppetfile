@@ -50,6 +50,7 @@ mod 'stahnma-epel', '1.3.1'
   
 # Forge Community Modules
 mod 'jfryman-selinux', '0.4.0'
+mod 'puppetlabs-sshkeys_core', '1.0.1'
 mod 'ghoneycutt-common', '1.9.0'
 mod 'ghoneycutt-ssh', '3.52.0'
 mod 'puppet-archive', '2.3.0'
