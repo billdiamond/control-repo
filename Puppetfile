@@ -20,7 +20,7 @@ mod 'puppetlabs/firewall', :latest
 mod 'puppetlabs/git', :latest
 mod 'puppetlabs/haproxy', :latest
 mod 'puppetlabs-iis', :latest
-mod 'puppetlabs/java', :latest
+mod 'puppetlabs/java', '3.2.0'
 mod 'puppetlabs/limits', :latest
 mod 'puppetlabs-motd', :latest
 mod 'puppetlabs-mount_iso', :latest
