@@ -36,7 +36,7 @@ mod 'puppetlabs/registry', :latest
 mod 'puppetlabs/tomcat', :latest
 mod 'puppetlabs/vcsrepo', :latest
 mod 'puppetlabs/sqlserver', :latest
-mod 'puppetlabs-apt', '4.4.1'
+mod 'puppetlabs-apt', :latest
 mod 'puppetlabs-facter_task', :latest
 mod 'puppetlabs-docker', :latest
 mod 'puppetlabs-transition', :latest
@@ -91,12 +91,9 @@ mod 'puppet-windows_env', :latest
 # mod 'camptocamp-systemd', '1.1.0'
 mod 'sensu-sensu', '2.52.0'
 mod 'puppet-rabbitmq', :latest
-mod 'arioch-redis', '3.1.0'
-mod 'yelp-uchiwa', '2.0.0'
 mod 'computology-packagecloud', '0.3.2'
 mod 'herculesteam-augeasproviders_core', :latest
 mod 'herculesteam-augeasproviders_sysctl', :latest
-mod 'puppet-gitlab', :latest
 mod 'yguenane-mariadbrepo', '0.2.1'
 mod 'albatrossflavour-puppet_health_check', '0.1.1'
 
