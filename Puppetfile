@@ -93,6 +93,7 @@ mod 'herculesteam-augeasproviders_core', :latest
 mod 'herculesteam-augeasproviders_sysctl', :latest
 mod 'albatrossflavour-puppet_health_check', '0.1.1'
 mod 'puppetfinland-os', '1.1.3'
+mod 'puppetfinland-rsnapshot', '1.0.1'
 
 
 
