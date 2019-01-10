@@ -47,7 +47,6 @@ mod 'maestrodev-wget', '1.7.3'
 
 
 mod 'stahnma-epel', '1.3.1'
-mod 'loomsen-rsnapshot', '1.2.4'
   
 # Forge Community Modules
 mod 'jfryman-selinux', '0.4.0'
@@ -80,8 +79,6 @@ mod 'crayfishx-purge', '1.2.0'
 mod 'puppet-splunk', :latest
 mod 'jpadams-puppet_vim_env', '2.3.0'
 mod 'stankevich-python', '1.18.2'
-mod 'kogitoapp-gitea', '1.0.4'
-mod 'mayflower-php', '3.4.2'
 mod 'puppet-nginx', :latest
 mod 'bodgit-rngd', '2.0.0'
 mod 'jonono-auditpol', '0.1.2'
@@ -94,7 +91,6 @@ mod 'puppet-rabbitmq', :latest
 mod 'computology-packagecloud', '0.3.2'
 mod 'herculesteam-augeasproviders_core', :latest
 mod 'herculesteam-augeasproviders_sysctl', :latest
-mod 'yguenane-mariadbrepo', '0.2.1'
 mod 'albatrossflavour-puppet_health_check', '0.1.1'
 
 
