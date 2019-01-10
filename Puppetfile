@@ -92,6 +92,7 @@ mod 'computology-packagecloud', '0.3.2'
 mod 'herculesteam-augeasproviders_core', :latest
 mod 'herculesteam-augeasproviders_sysctl', :latest
 mod 'albatrossflavour-puppet_health_check', '0.1.1'
+mod 'puppetfinland-os', '1.1.3'
 
 
 
