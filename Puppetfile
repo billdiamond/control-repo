@@ -43,7 +43,7 @@ mod 'puppetlabs-transition', :latest
 mod 'puppetlabs-gcc', :latest
 mod 'puppetlabs-distelli_agent', :latest
 mod 'maestrodev-wget', '1.7.3'
-mod 'puppetlabs-translate', '1.1.0'
+mod 'puppetlabs-translate', '1.0.0'
 
 mod 'stahnma-epel', '1.3.1'
   
