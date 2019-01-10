@@ -28,7 +28,7 @@ mod 'puppetlabs/mysql', :latest
 mod 'puppetlabs-netdev_stdlib', :latest
 mod 'puppetlabs-vsphere', :latest
 mod 'puppetlabs-puppet_authorization', '0.5.0'
-mod 'puppetlabs-cd4pe', :latest
+mod 'puppetlabs-cd4pe', '1.0.3'
 mod 'puppetlabs-ntp', :latest
 mod 'puppetlabs-powershell', '2.2.0'
 mod 'puppetlabs/puppetserver_gem', :latest
@@ -50,8 +50,8 @@ mod 'stahnma-epel', '1.3.1'
   
 # Forge Community Modules
 mod 'jfryman-selinux', '0.4.0'
-mod 'ghoneycutt-ssh', '3.52.0'
 mod 'ghoneycutt-common', '1.9.0'
+mod 'ghoneycutt-ssh', '3.52.0'
 mod 'puppet-archive', '2.3.0'
 mod 'trlinkin/domain_membership', '1.1.2'
 mod 'ipcrm/echo', '0.1.3'
@@ -68,7 +68,7 @@ mod 'ayohrling-local_security_policy', '0.6.1'
 mod 'thias-sysctl', '1.0.6'
 mod 'reidmv/unzip', '0.1.2'
 mod 'jethrocarr-initfact', '1.0.1'
-mod 'biemond/wildfly', '2.0.0'
+mod 'biemond/wildfly', '2.0.3'
 mod 'puppet/windows_firewall', :latest
 mod 'puppet-windowsfeature', :latest
 mod 'hunner/wordpress', '1.0.0'
