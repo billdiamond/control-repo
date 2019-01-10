@@ -1,5 +1,5 @@
 class { 'rsnapshot::client':
-  server             => '192.168.237,
+  server             => '192.168.1.237,
   directories        => [
     '/etc',
     '/home',
