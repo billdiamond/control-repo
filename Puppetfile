@@ -43,8 +43,7 @@ mod 'puppetlabs-transition', :latest
 mod 'puppetlabs-gcc', :latest
 mod 'puppetlabs-distelli_agent', :latest
 mod 'maestrodev-wget', '1.7.3'
-mod 'icinga-icinga2', '1.3.6'
-mod 'icinga-icingaweb2', '2.2.0'
+
 
 
 mod 'stahnma-epel', '1.3.1'
@@ -102,10 +101,6 @@ mod 'yguenane-mariadbrepo', '0.2.1'
 mod 'albatrossflavour-puppet_health_check', '0.1.1'
 
 
-
-mod 'jenkins',
-  :git => 'https://github.com/jenkinsci/puppet-jenkins.git',
-  :ref => '5ab2c8a8207f6351f59706255087c6eef32778d9'
 
 
 mod 'netstat',
