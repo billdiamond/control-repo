@@ -43,8 +43,7 @@ mod 'puppetlabs-transition', :latest
 mod 'puppetlabs-gcc', :latest
 mod 'puppetlabs-distelli_agent', :latest
 mod 'maestrodev-wget', '1.7.3'
-
-
+mod 'puppetlabs-translate', '1.2.0'
 
 mod 'stahnma-epel', '1.3.1'
   
@@ -60,7 +59,6 @@ mod 'puppetlabs-nagios_core', :latest
 
 mod 'aristanetworks-netdev_stdlib_eos', '1.2.0'
 mod 'WhatsARanjit/node_manager', '0.4.2'
-mod 'cyberious/pget', '1.1.0'
 mod 'lwf/remote_file', '1.1.3'
 mod 'ajjahn/samba', '0.5.0'
 mod 'puppet-staging', :latest
@@ -69,7 +67,6 @@ mod 'thias-sysctl', '1.0.6'
 mod 'reidmv/unzip', '0.1.2'
 mod 'biemond/wildfly', '2.0.3'
 mod 'puppet/windows_firewall', :latest
-mod 'cyberious/windows_java', '1.0.2'
 mod 'puppet-windowsfeature', :latest
 mod 'hunner/wordpress', '1.0.0'
 mod 'tse/winntp', '1.0.1'
@@ -85,9 +82,7 @@ mod 'jonono-auditpol', '0.1.2'
 mod 'nexcess-auditd', '2.0.0'
 mod 'jdowning-rbenv', '2.2.0'
 mod 'puppet-windows_env', :latest
-# mod 'camptocamp-systemd', '1.1.0'
 mod 'sensu-sensu', '2.52.0'
-mod 'puppet-rabbitmq', :latest
 mod 'computology-packagecloud', '0.3.2'
 mod 'herculesteam-augeasproviders_core', :latest
 mod 'herculesteam-augeasproviders_sysctl', :latest
