@@ -3,6 +3,7 @@ forge "http://forge.puppetlabs.com"
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
+# updated 2019 Jan 10
 mod 'puppetlabs/exec', :latest
 mod 'puppetlabs-resource', :latest
 mod 'puppetlabs-service', :latest
