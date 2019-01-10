@@ -8,7 +8,7 @@ mod 'puppetlabs-resource', :latest
 mod 'puppetlabs-service', :latest
 mod 'puppetlabs/inifile', :latest
 mod "puppetlabs/stdlib", '4.25.1'
-mod 'puppetlabs/concat', '3.0.0'
+mod 'puppetlabs/concat', '5.2.0'
 mod 'puppetlabs-acl', :latest
 mod 'puppetlabs/apache', :latest
 mod 'puppetlabs/aws', :latest
