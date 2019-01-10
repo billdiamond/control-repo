@@ -6,7 +6,7 @@ forge "http://forge.puppetlabs.com"
 mod 'puppetlabs/exec', :latest
 mod 'puppetlabs-resource', :latest
 mod 'puppetlabs-service', :latest
-mod 'puppetlabs/inifile', :latest
+mod 'puppetlabs/inifile', '2.5.0'
 mod "puppetlabs/stdlib", '4.25.1'
 mod 'puppetlabs/concat', '5.2.0'
 mod 'puppetlabs-acl', :latest
