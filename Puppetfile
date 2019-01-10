@@ -36,7 +36,7 @@ mod 'puppetlabs/registry', :latest
 mod 'puppetlabs/tomcat', :latest
 mod 'puppetlabs/vcsrepo', :latest
 mod 'puppetlabs/sqlserver', :latest
-mod 'puppetlabs-apt', '5.0.0'
+mod 'puppetlabs-apt', '6.2.1'
 mod 'puppetlabs-facter_task', :latest
 mod 'puppetlabs-docker', :latest
 mod 'puppetlabs-transition', :latest
