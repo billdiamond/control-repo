@@ -7,7 +7,7 @@ mod 'puppetlabs/exec', :latest
 mod 'puppetlabs-resource', :latest
 mod 'puppetlabs-service', :latest
 mod 'puppetlabs/inifile', :latest
-mod "puppetlabs/stdlib", :latest
+mod "puppetlabs/stdlib", '4.25.1'
 mod 'puppetlabs/concat', '3.0.0'
 mod 'puppetlabs-acl', :latest
 mod 'puppetlabs/apache', :latest
@@ -29,7 +29,7 @@ mod 'puppetlabs-netdev_stdlib', :latest
 mod 'puppetlabs-vsphere', :latest
 mod 'puppetlabs-cd4pe', :latest
 mod 'puppetlabs-ntp', :latest
-mod 'puppetlabs-powershell', '2.0.0'
+mod 'puppetlabs-powershell', '2.2.0'
 mod 'puppetlabs/puppetserver_gem', :latest
 mod 'puppetlabs/reboot', :latest
 mod 'puppetlabs/registry', :latest
