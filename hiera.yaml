@@ -23,9 +23,9 @@ classes:
 
 rsnapshot::snapshot_root: '/backup/rsnapshot'
 rsnapshot::backups:
-    - '/etc/': 'backup.domain.com/'
-    - '/var/backups/local/': 'backup.domain.com/'
-    - 'root@server.domain.com:/etc/': 'server.domain.com/'
+    - '/etc/': 'puppet.billdiamond.com/'
+    - '/var/backups/local/': 'puppet.billdiamond.com/'
+    - 'root@puppet.billdiamond.com:/etc/': 'puppet.billdiamond.com/'
 rsnapshot::retains:
     - daily: 7
     - weekly: 4
