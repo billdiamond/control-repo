@@ -5,7 +5,7 @@ class { 'rsnapshot::client':
     '/home',
     '/root'
   ],
-  user                => 'backshots',
+  user                => 'root',
   remote_user         => 'root',
   backup_hourly_cron  => '*/2',
   backup_time_minute  => fqdn_rand(59, 'rsnapshot_minute'),
