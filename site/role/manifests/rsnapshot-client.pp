@@ -1,5 +1,5 @@
 class { 'rsnapshot::client':
-  server             => '192.168.1.237,
+  server             => 'puppet.billdiamond.com',
   directories        => [
     '/etc',
     '/home',
