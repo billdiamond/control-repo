@@ -99,7 +99,7 @@ mod 'herculesteam-augeasproviders_core', :latest
 mod 'herculesteam-augeasproviders_sysctl', :latest
 mod 'puppet-gitlab', :latest
 mod 'yguenane-mariadbrepo', '0.2.1'
-
+mod 'albatrossflavour-puppet_health_check', '0.1.1'
 
 
 
