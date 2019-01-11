@@ -12,7 +12,7 @@ mod "puppetlabs/stdlib", '4.25.1'
 mod 'puppetlabs/concat', '5.2.0'
 mod 'puppetlabs-acl', :latest
 mod 'puppetlabs/apache', :latest
-mod 'puppetlabs/aws', :latest
+mod 'puppetlabs-amazon-aws', '0.2.0'
 mod 'puppetlabs-azure', '1.3.1'
 mod 'puppetlabs-azure_arm', '0.1.5'
 mod 'puppetlabs-chocolatey', :latest
