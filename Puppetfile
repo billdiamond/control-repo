@@ -12,11 +12,11 @@ mod 'puppetlabs/stdlib', '4.25.1'
 mod 'puppetlabs/concat', '5.2.0'
 mod 'puppetlabs-acl', :latest
 mod 'puppetlabs/apache', :latest
-mod 'puppetlabs-amazon-aws', '0.2.0'
-#mod 'puppetlabs-azure', '1.3.1'
-#mod 'puppetlabs-azure_arm', '0.1.5'
-#mod 'tragiccode-azure_key_vault', '1.0.2'
-#mod 'puppetlabs-chocolatey', :latest
+#mod 'puppetlabs-amazon-aws', '0.2.0'
+mod 'puppetlabs-azure', '1.3.1'
+mod 'puppetlabs-azure_arm', '0.1.5'
+mod 'tragiccode-azure_key_vault', '1.0.2'
+mod 'puppetlabs-chocolatey', :latest
 mod 'puppetlabs/dism', :latest
 mod 'puppetlabs/dsc', :latest
 mod 'puppetlabs-dsc_lite', '1.1.0'
