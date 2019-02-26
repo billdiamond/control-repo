@@ -2,13 +2,13 @@ forge "http://forge.puppetlabs.com"
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
-# updated 2019 Jan 10
+# updated 2019 Feb 26
 mod 'puppetlabs/exec', :latest
 mod 'puppetlabs-resource', :latest
 mod 'puppetlabs-service', :latest
 mod 'puppetlabs/inifile', '2.5.0'
-mod 'puppetlabs/stdlib', '4.25.1'
-mod 'puppetlabs/concat', '5.2.0'
+#mod 'puppetlabs/stdlib', '4.25.1'
+#mod 'puppetlabs/concat', '5.2.0'
 mod 'puppetlabs-acl', :latest
 mod 'puppetlabs/apache', :latest
 mod 'puppetlabs-amazon_aws', '0.2.0'
@@ -30,8 +30,8 @@ mod 'puppetlabs-mount_iso', :latest
 mod 'puppetlabs/mysql', :latest
 mod 'puppetlabs-netdev_stdlib', :latest
 mod 'puppetlabs-vsphere', :latest
-mod 'puppetlabs-puppet_authorization', '0.5.0'
-mod 'puppetlabs-cd4pe', '1.0.3'
+#mod 'puppetlabs-puppet_authorization', '0.5.0'
+#mod 'puppetlabs-cd4pe', '1.0.3'
 mod 'puppetlabs-ntp', :latest
 mod 'puppetlabs-powershell', '2.2.0'
 mod 'puppetlabs/puppetserver_gem', :latest
@@ -40,14 +40,14 @@ mod 'puppetlabs/registry', :latest
 mod 'puppetlabs/tomcat', :latest
 mod 'puppetlabs/vcsrepo', :latest
 mod 'puppetlabs/sqlserver', :latest
-mod 'puppetlabs-apt', :latest
+#mod 'puppetlabs-apt', :latest
 mod 'puppetlabs-facter_task', :latest
-mod 'puppetlabs-docker', :latest
+#mod 'puppetlabs-docker', :latest
 mod 'puppetlabs-transition', :latest
 mod 'puppetlabs-gcc', :latest
 mod 'puppetlabs-distelli_agent', :latest
 mod 'maestrodev-wget', '1.7.3'
-mod 'puppetlabs-translate', '1.1.0'
+#mod 'puppetlabs-translate', '1.1.0'
 
 mod 'stahnma-epel', '1.3.1'
   
@@ -95,7 +95,15 @@ mod 'herculesteam-augeasproviders_core', :latest
 mod 'herculesteam-augeasproviders_sysctl', :latest
 mod 'albatrossflavour-puppet_health_check', '0.1.1'
 
-
+mod 'puppetlabs-cd4pe', :latest
+# Requirements for cd4pe
+mod 'puppetlabs-concat', '4.2.1'
+mod 'puppetlabs-hocon', '1.0.1'
+mod 'puppetlabs-puppet_authorization', '0.5.0'
+mod 'puppetlabs-stdlib', '4.25.1'
+mod 'puppetlabs-docker', '3.2.0'
+mod 'puppetlabs-apt', '6.2.1'
+mod 'puppetlabs-translate', '1.1.0'
 
 
 mod 'netstat',
@@ -104,5 +112,5 @@ mod 'netstat',
 
 
 # dependencies of device_manager
-mod 'puppetlabs-hocon', :latest
+#mod 'puppetlabs-hocon', :latest
 
